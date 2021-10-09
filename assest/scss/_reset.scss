@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px !important;
+  color: $black !important;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: $black;
+  transition: 0.4s;
+  &:hover {
+    color: $red;
+  }
+}
+
+li {
+  list-style: none;
+}
+p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+button {
+  border: none;
+}
+img {
+  width: 100%;
+}
+.bg-light {
+  background-color: transparent !important;
+}

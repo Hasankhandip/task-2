@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstarp Hdr Practise</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-6/css/all.css"
+    />
+    <!-- main-css -->
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container">
+        <nav class="hdr-nav navbar navbar-expand-lg navbar-light bg-light">
+          <a class="hdr-logo navbar-brand" href="#">
+            <img class="logo-img" src="./assest/images/hdr-logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="hdr-menu navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                  <i class="drp-dwn-btn fas fa-chevron-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Service One</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Team
+                  <i class="drp-dwn-btn fas fa-chevron-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Team One</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Team Two</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  News
+                  <i class="drp-dwn-btn fas fa-chevron-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >News One</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >News Two</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                  <i class="drp-dwn-btn fas fa-chevron-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Page 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Page 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="child-drp-dwn-btn fas fa-chevron-right"></i
+                      >Page 3</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-12 col-sm-12 text-center">
+            <h2 class="banner-title white display-2">
+              Choose quality delivery of your cargo
+            </h2>
+            <p class="banner-text white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatem vel saepe, iusto praesentium sit nam!
+            </p>
+            <a href="#0" class="main-btn btn btn-primary">Know More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-section ptb-70">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-sm-12 text-center">
+            <div class="section-hdr">
+              <h1 class="section-title">Services that we specialize in</h1>
+              <p class="section-text p-text-black">
+                We offer you with a wide range of services, which will make your
+                delivery process easy and quick. All our services are presented
+                here.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="service-icon-logo rounded-circle fas fa-dolly"></i>
+              </div>
+              <h5><a class="service-title" href="#">Logistics</a></h5>
+              <p class="service-details p-text-black">
+                We provide professional logistics services. Our trucks are
+                reliable and fast – you will get your shipment in time.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="service-icon-logo rounded-circle fas fa-home"></i>
+              </div>
+              <h5><a class="service-title" href="#">Warehousing</a></h5>
+              <p class="service-details p-text-black">
+                You can use our service of goods storage according to your needs
+                so your shipments will be safe.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="service-icon-logo rounded-circle fas fa-box"></i>
+              </div>
+              <h5><a class="service-title" href="#">Project Forwarding</a></h5>
+              <p class="service-details p-text-black">
+                Our team deals with your project forwarding from the beginning
+                to the project completion.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="service-icon-logo rounded-circle fas fa-ship"></i>
+              </div>
+              <h5><a class="service-title" href="#">Sea Freight</a></h5>
+              <p class="service-details p-text-black">
+                We deliver your cargo to many top global destinations &
+                countries by the sea using modern vessels.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="service-icon-logo rounded-circle fas fa-plane"></i>
+              </div>
+              <h5><a class="service-title" href="#">Air Freight</a></h5>
+              <p class="service-details p-text-black">
+                Air delivery is the fastest way to deliver shipment overseas. We
+                work with different cargos.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item">
+              <div class="service-icon">
+                <i
+                  class="service-icon-logo rounded-circle fas fa-shield-alt"
+                ></i>
+              </div>
+              <h5><a class="service-title" href="#">Cargo Insurance</a></h5>
+              <p class="service-details p-text-black">
+                We ensure protection of cargo from any damage during shipping,
+                whether by land, sea or air.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-section-2 section-bg ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1 class="section-title white">Services that we specialize in</h1>
+            <p class="section-text white">
+              We offer you with a wide range of services, which will make your
+              delivery process easy and quick. All our services are presented
+              here.
+            </p>
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button accordion-plus"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    A Personal Service
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Our commitment to our customers is to ensure efficient,
+                    reliable and trouble free management of your freight
+                    requirements - by providing the very best service along with
+                    the highly affordable rates available to all our clients
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button accordion-plus collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Customer-Tailored Freight Options
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Multiple modes of freight transportation: intermodal, LTL,
+                    truckload, flatbed, temperature controlled, bulk and final
+                    mile services. Supported industries: food & beverage, wine &
+                    spirits plastics & packaging, agriculture.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button accordion-plus collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Professional Cargo Tracking
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    With our innovative solutions, you can manage your freight,
+                    bulk and container transport at the click of a button online
+                    - anytime, anywhere. We use, web-based software to track and
+                    trace all cargos that we operate with.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col-lg-6 col-md-12 col-sm-12
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <img
+              class="service-image"
+              src="./assest/images/service-img-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section ptb-70">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-sm-12 text-center">
+            <div class="section-hdr">
+              <h1 class="section-title">We work quickly and efficiently!</h1>
+              <p class="section-text p-text-black">
+                We provide local and international delivery services. Destar is
+                number one company implementing logistics services. With our
+                rich experience we have unique skills and professional staff.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-item about-item">
+              <h5><a class="service-title" href="#">Cost savings</a></h5>
+              <p class="service-details p-text-black">
+                Save your money with our logistics service taking advantage of
+                quickly delivery.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-item about-item">
+              <h5><a class="service-title" href="#">Secure services</a></h5>
+              <p class="service-details p-text-black">
+                We provide security of your delivery. You can use our online
+                tracking system to check where your cargo.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-item about-item">
+              <h5><a class="service-title" href="#">Cargo express</a></h5>
+              <p class="service-details p-text-black">
+                Our educated couriers deliver your cargo in the right place at
+                the right time safely.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="service-item about-item">
+              <h5><a class="service-title" href="#">Proven Experience</a></h5>
+              <p class="service-details p-text-black">
+                Thousands of happy clients, hundreds of permanent customers are
+                the result of our work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section section-bg ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="section-title white text-center">
+              The company you can trust
+            </h1>
+          </div>
+        </div>
+        <div class="row team-all">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="team-profile">
+              <img class="team-img" src="./assest/images/team-1.jpg" alt="" />
+              <div class="team-member-details text-end">
+                <h5>
+                  <a class="service-title team-member-name" href="#"
+                    >Johny Watson</a
+                  >
+                </h5>
+                <p class="service-details team-details">Mover</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="team-profile">
+              <img class="team-img" src="./assest/images/team-2.jpg" alt="" />
+              <div class="team-member-details text-end">
+                <h5>
+                  <a class="service-title team-member-name" href="#"
+                    >Keith Smith</a
+                  >
+                </h5>
+                <p class="service-details team-details">Logistics Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="team-profile">
+              <img class="team-img" src="./assest/images/team-3.jpg" alt="" />
+              <div class="team-member-details text-end">
+                <h5>
+                  <a class="service-title team-member-name" href="#"
+                    >Jennifer Rivera</a
+                  >
+                </h5>
+                <p class="service-details team-details">Warehouse Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="team-carousel-dot text-center">
+          <li>
+            <a class="carousel-dot" href="#"><i class="fas fa-circle"></i></a>
+            <a class="carousel-dot" href="#"><i class="fas fa-circle"></i></a>
+            <a class="carousel-dot" href="#"><i class="fas fa-circle"></i></a>
+            <a class="carousel-dot" href="#"><i class="fas fa-circle"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="register-section ptb-70">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-12 col-sm-12 text-center">
+            <h1 class="section-title white">
+              Register for shipping right now and get a discount for the next
+              shipment.
+            </h1>
+            <a href="#0" class="main-btn btn btn-primary">Sign up</a>
+            <a href="#0" class="main-btn main-btn-2 btn btn-primary"
+              >Know More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client-section ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="section-title text-center">
+              What our clients say about us
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="client-review-wrap service-item">
+              <div class="client-review-all">
+                <img
+                  class="clinet-img rounded-circle"
+                  src="./assest/images/client-1.jpg"
+                  alt=""
+                />
+                <div class="review-content">
+                  <div class="review-title">
+                    <a class="review-name service-title" href="#">Kathy Ross</a>
+                    <p class="review-date">August 05, 2021</p>
+                  </div>
+                  <ul class="review-rating d-flex">
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <p class="client-review-text service-details p-text-black">
+                I used their services multiple times and always was glad with
+                the result of their work. Their experienced dispatchers always
+                help with any question.
+              </p>
+              <div class="review-content review-content-2">
+                <div class="review-title">
+                  <a class="review-name service-title" href="#">Kathy Ross</a>
+                  <p class="review-date">August 05, 2021</p>
+                </div>
+                <ul class="review-rating d-flex">
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="client-review-wrap service-item">
+              <div class="client-review-all">
+                <img
+                  class="clinet-img rounded-circle"
+                  src="./assest/images/client-2.jpg"
+                  alt=""
+                />
+                <div class="review-content">
+                  <div class="review-title">
+                    <a class="review-name service-title" href="#"
+                      >Roger Anderson</a
+                    >
+                    <p class="review-date">August 05, 2021</p>
+                  </div>
+                  <ul class="review-rating d-flex">
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                    <li><i class="fas fa-star rating-icon"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <p class="client-review-text service-details p-text-black">
+                Destar is a great delivery company! This is highlighted by their
+                excellent communication, sense of urgency, and the excellent
+                level of customer service.
+              </p>
+              <div class="review-content review-content-2">
+                <div class="review-title">
+                  <a class="review-name service-title" href="#"
+                    >Roger Anderson</a
+                  >
+                  <p class="review-date">August 05, 2021</p>
+                </div>
+                <ul class="review-rating d-flex">
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                  <li><i class="fas fa-star rating-icon"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section ptb-70">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-sm-12 text-center">
+            <div class="section-hdr">
+              <h1 class="section-title">Pricing & plans</h1>
+              <p class="section-text p-text-black">
+                Know about our pricing & plans
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pricing-item">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="pricing-box">
+              <h2 class="price-dollar section-title">$15</h2>
+              <p class="section-text gray-clr">for single product</p>
+              <a href="#0" class="price-btn main-btn btn btn-primary">Basic</a>
+              <ul class="price-content">
+                <li class="price-content-list">
+                  Product Weight: <span class="gray-clr">&lt; 6kg</span>
+                </li>
+                <li class="price-content-list">
+                  Country: <span class="gray-clr"> all</span>
+                </li>
+                <li class="price-content-list">
+                  duration: <span class="gray-clr">1-4 days</span>
+                </li>
+                <li class="price-content-list">
+                  support: <span class="gray-clr">yes</span>
+                </li>
+              </ul>
+              <a href="#0" class="price-btn-2 main-btn btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="pricing-box">
+              <h2 class="price-dollar section-title">$50</h2>
+              <p class="section-text gray-clr">for multiple product</p>
+              <a href="#0" class="price-btn main-btn btn btn-primary"
+                >standard</a
+              >
+              <ul class="price-content">
+                <li class="price-content-list">
+                  Product Weight: <span class="gray-clr">&lt; 30kg</span>
+                </li>
+                <li class="price-content-list">
+                  Country: <span class="gray-clr"> all</span>
+                </li>
+                <li class="price-content-list">
+                  duration: <span class="gray-clr">1-4 days</span>
+                </li>
+                <li class="price-content-list">
+                  support: <span class="gray-clr">yes</span>
+                </li>
+              </ul>
+              <a href="#0" class="price-btn-2 main-btn btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="pricing-box">
+              <h2 class="price-dollar section-title">$30</h2>
+              <p class="section-text gray-clr">for package product</p>
+              <a href="#0" class="price-btn main-btn btn btn-primary"
+                >Premium</a
+              >
+              <ul class="price-content">
+                <li class="price-content-list">
+                  Product Weight: <span class="gray-clr">&lt; 15kg</span>
+                </li>
+                <li class="price-content-list">
+                  Country: <span class="gray-clr"> all</span>
+                </li>
+                <li class="price-content-list">
+                  duration: <span class="gray-clr">1-4 days</span>
+                </li>
+                <li class="price-content-list">
+                  support: <span class="gray-clr">yes</span>
+                </li>
+              </ul>
+              <a href="#0" class="price-btn-2 main-btn btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-bg ptb-70">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1 class="section-title white">
+              Contact us & get a discount for delivery
+            </h1>
+            <p class="section-text white">
+              Whether you require delivery or logistics services or fulfillment,
+              defined freight forwarding, or a complete supply chain solution,
+              we are here for you.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <form action="#" class="contact-form">
+              <input
+                class="contact-form-input"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                class="contact-form-input"
+                type="number"
+                placeholder="Phone"
+              />
+              <input
+                class="contact-form-input"
+                type="email"
+                placeholder="Email"
+              />
+              <textarea
+                class="contact-form-input"
+                placeholder="Message"
+                name="message"
+                id=""
+                cols="30"
+                rows="6"
+              ></textarea>
+              <a href="#0" class="submit-btn main-btn btn btn-primary">Send</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="register-section counter-section ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="counter-item">
+              <h2 class="count-up-number"><span class="count">21000</span>+</h2>
+              <a href="#" class="count-up-title">Delivered Product</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="counter-item">
+              <h2 class="count-up-number"><span class="count">18</span></h2>
+              <a href="#" class="count-up-title">Award Won</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="counter-item">
+              <h2 class="count-up-number"><span class="count">19560</span>+</h2>
+              <a href="#" class="count-up-title">Possitive Review</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="counter-item">
+              <h2 class="count-up-number"><span class="count">98</span>%</h2>
+              <a href="#" class="count-up-title">Successfull Delivery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="blog-hdr-title section-title text-center">
+              Latest news from our company
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="blog-post">
+              <img class="blog-img" src="./assest/images/post-1.jpg" alt="" />
+              <h4 class="blog-content">
+                <a class="blog-title service-title" href="#"
+                  >Review: collaboration with a new cargo-only airport</a
+                >
+              </h4>
+              <time class="blog-post-time" datetime="2021-04-30"
+                >April 30, 2021</time
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="blog-post">
+              <img class="blog-img" src="./assest/images/post-2.jpg" alt="" />
+              <h4 class="blog-content">
+                <a class="blog-title service-title" href="#"
+                  >Cartonization technology in parcel freight</a
+                >
+              </h4>
+              <time class="blog-post-time" datetime="2021-04-30"
+                >April 30, 2021</time
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="blog-post">
+              <img class="blog-img" src="./assest/images/post-3.jpg" alt="" />
+              <h4 class="blog-content">
+                <a class="blog-title service-title" href="#"
+                  >Usage of electric vehicles in work of our company</a
+                >
+              </h4>
+              <time class="blog-post-time" datetime="2021-04-30"
+                >April 30, 2021</time
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section pt-70 section-bg">
+      <div class="container">
+        <div class="row footer-top">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="contact-details">
+              <img
+                class="footer-logo"
+                src="./assest/images/footer-logo.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="contact-details">
+              <div class="details-icon">
+                <i class="fas fa-phone-volume"></i>
+              </div>
+              <div class="details-info">
+                <span class="details-info-name">Phone:</span>
+                <a class="details-info-contact" href="tel:01728869102"
+                  >+88 01728869102</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="contact-details">
+              <div class="details-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="details-info">
+                <span class="details-info-name">Email:</span>
+                <a class="details-info-contact" href="#"
+                  >hasankhandip@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="contact-details">
+              <div class="details-icon">
+                <i class="far fa-clock"></i>
+              </div>
+              <div class="details-info">
+                <span class="details-info-name"> Opening Hours:</span>
+                <a class="details-info-contact" href="tel:01728869102"
+                  >Sat. - Thu. 9:00 - 18:00</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-item">
+              <h6 class="footer-item-title">About us</h6>
+              <p class="footer-item-details">
+                Destar provides local and international delivery and logistics
+                services. Our team has unique skills and rich professional
+                experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-item">
+              <h6 class="footer-item-title">Quick links</h6>
+              <ul>
+                <li>
+                  <a class="footer-item-list" href="#"
+                    ><i class="fas fa-chevron-right"></i> About</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-item-list" href="#"
+                    ><i class="fas fa-chevron-right"></i> Service</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-item-list" href="#"
+                    ><i class="fas fa-chevron-right"></i> Team</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-item-list" href="#"
+                    ><i class="fas fa-chevron-right"></i> News</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-item-list" href="#"
+                    ><i class="fas fa-chevron-right"></i> Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-item">
+              <h6 class="footer-item-title">Latest news</h6>
+              <ul>
+                <li class="footer-news-list">
+                  <a class="footer-news" href="#"
+                    >Cartonization technology in parcel freight</a
+                  >
+                  <span class="footer-news-time">January 25, 2021</span>
+                </li>
+                <li class="footer-news-list">
+                  <a class="footer-news" href="#"
+                    >Review: collaboration with a new cargo-only airport</a
+                  >
+                  <span class="footer-news-time">January 25, 2021</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-item">
+              <h6 class="footer-item-title">Newsletter subscription</h6>
+              <form action="#" class="footer-form">
+                <input
+                  class="footer-email-input contact-form-input"
+                  type="email"
+                  placeholder="Your Email"
+                />
+                <i class="fas fa-paper-plane email-icon"></i>
+              </form>
+              <p class="footer-item-details">
+                Enter your e-mail to subscribe to our newsletter and receive the
+                latest news.
+              </p>
+              <ul class="d-flex footer-social-1">
+                <li>
+                  <a class="footer-social-link" href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="footer-social-link" href="#"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="footer-social-link" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="footer-social-link" href="#"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="footer-social-link" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-copyright">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <p class="copyright">
+              © 2021 <span class="white">Destar</span>. All Rights Reserved By
+              <span class="white">Dip</span>.
+              <a class="footer-privacy" href="#">Privacy Policy</a>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <ul class="footer-social-2 d-flex justify-content-end">
+              <li>
+                <a class="footer-social-link" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-social-link" href="#"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-social-link" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-social-link" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-social-link" href="#"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- counter-up -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+      $(".count").counterUp({
+        delay: 10,
+        time: 1000,
+      });
+    </script>
+  </body>
+</html>
